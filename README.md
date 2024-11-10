@@ -20,9 +20,11 @@ Open a terminal and enter the following command. This will only install docker a
 
 note that you need to type the name of the package manager used by your distro
 
+the dataset used here is [Synthetic financial datasets for fraud detection](https://www.kaggle.com/datasets/ealaxi/paysim1)
+
 - now make a directory named "financial_anomaly" in the home directory and in the root directory
-- also, keep a copy of the dataset in both the directories
-- make a docker-compose file in the financial_anomaly directory IN the home directory
+- also, download and keep a copy of the dataset in both the directories
+- make a docker-compose file in the financial_anomaly directory IN the root directory
 - copy the contents from the docker-compose file in the repo and paste it
 - open a terminal in the directory and run
 `docker-compose up --build`
