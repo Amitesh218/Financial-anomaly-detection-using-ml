@@ -36,3 +36,27 @@ you now have the containers needed for the model training running!
 
 you'll get the outputs of the csv files in the financial_anomaly directories
 if you cant find em in one, make sure to check the other... Yeah, i know, not very demure. But i cant be bothered. If it works, don't fix it ykwim
+
+## Shutting down and reopening
+
+*docker desktop*
+
+shut down the docker engine, DUH or stop the containers using the ui
+
+*docker*
+
+just type `docker-compose down` on a terminal
+
+this could be a problem when working with multiple other containers but i don't think anyones ever gonna read this anyways so imma just let it be
+actually no nvm im curious now
+okay so a quick google search fetched me the results:
+`docker container stop [OPTIONS] CONTAINER [CONTAINER...]`
+
+use this to stop specific containers
+
+to restart all of this,
+js open a terminal in a directory with the docker-compose file and run
+
+`docker-compose up`
+
+> (also youre gonna have to copy paste the token every time... haha... if it aint broke, dont fix it amirite!)
