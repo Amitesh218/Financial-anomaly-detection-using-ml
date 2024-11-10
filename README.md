@@ -15,4 +15,10 @@ To install docker desktop, head to [their website]([https://www.docker.com/](htt
 Open a terminal and enter the following command. This will only install docker and not docker desktop, which provides the gui interface. If you prefer to work with the gui, refer the previous step.
 
 **linux**
-`sudo pacman -S docker #note that you need to type the name of the package manager used by your distro`
+
+`sudo pacman -S docker`
+
+note that you need to type the name of the package manager used by your distro
+
+> now make a directory named "financial_anomaly" in the home directory and in the root directory
+> make a docker-compose file on the home directory
