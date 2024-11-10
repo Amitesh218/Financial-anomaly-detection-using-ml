@@ -20,5 +20,7 @@ Open a terminal and enter the following command. This will only install docker a
 
 note that you need to type the name of the package manager used by your distro
 
-> now make a directory named "financial_anomaly" in the home directory and in the root directory
-> make a docker-compose file on the home directory
+- now make a directory named "financial_anomaly" in the home directory and in the root directory
+- make a docker-compose file on the home directory
+- open a terminal in the directory and run
+`docker-compose up`
